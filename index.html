@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Github consult</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="container-geral">
+    <header class="header">
+      <img src="./assets/postmanreceiveletter_100579.svg" alt="">
+      <nav>
+        <ul>
+          <li><a href="https://github.com/m3nininho">Dev</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="grid">
+        <h1>Search your Github profile right now using our tool.</h1>
+        <img class="img-search" src="./assets/undraw_people_search_re_5rre.svg">
+        <div class="itens-coletado">
+          <form id="question">
+            <label id="label" for="name">Name: </label><br>
+            <input type="text" name="name" id='name' placeholder="Enter your name">
+            <input type="submit" value="send" id="send">
+          </form>
+          <div id="box-response">
+            <span class="text-response" >Login: <span id="login"></span></span>
+            <span class="text-response" >Id: <span id="id"></span></span>
+            <span class="text-response" >Url: <span id="url"></span></span>
+            <span class="text-response" >Avatar: <img id="avatar" src=""></span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+
+    <script src="./script.js"></script>
+  </div>
+</body>
+
+</html>

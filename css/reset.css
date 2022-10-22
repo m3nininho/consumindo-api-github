@@ -1,0 +1,23 @@
+body,
+p,
+h1,
+ul,
+li {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background: var(--body-bg-color);
+  color: var(--text-color);
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 5px;
+}

@@ -1,0 +1,38 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.grid h1 {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 4rem;
+  font-size: 2.5rem;
+}
+.itens-coletado {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.itens-coletado span {
+  font-size: 1.5rem;
+}
+#name{
+  padding: .8rem;
+  font-size: 1.225rem;
+  border: 3px solid var(--text-color-black);
+  margin-top: 1rem;
+}
+#send{
+  padding: .7rem;
+  color: var(--btn-text-color);
+  font-weight: bold;
+  background: var(--btn-bg-color);
+  border: 3px solid var(--text-color-black);
+  text-transform: uppercase;
+}
+#send:hover{
+  background: var(--text-color);
+  transition: ease-in-out .3s;
+}

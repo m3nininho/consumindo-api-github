@@ -1,0 +1,12 @@
+@media (max-width: 430px){
+  #box-response span{
+    font-size: 1.25rem;
+  }
+  #name{
+    padding: 0.5;
+    width: 10rem;
+  }
+  .text-response{
+    font-size: 1.5rem !important;
+  }
+}

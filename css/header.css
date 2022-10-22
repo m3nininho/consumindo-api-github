@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+}
+.header img {
+  max-width: 100%;
+  width: 10rem;
+  border-radius: 50%;
+}
+.header a {
+  font-size: 2.2rem;
+  color: var(--text-color);
+  padding: 1rem;
+  letter-spacing: 0.2rem;
+}
+.header a:hover {
+  color: var(--text-color-hover-header);
+  font-weight: bold;
+}
