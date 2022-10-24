@@ -1,3 +1,26 @@
+@media (max-width: 768px){
+  .img-search{
+    display: none ;
+  }
+  .itens-coletado{
+    margin: 0 auto;
+    grid-column: 1/3;
+
+  }
+  .text-response{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #url{
+    font-size: 1.5rem;
+  }
+  .text-response.url{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 430px){
   #box-response span{
     font-size: 1.25rem;
